@@ -49,9 +49,56 @@
 --distance-14: 3.50rem;
 --distance-15: 4rem;
 
+/*Shadows*/
+--shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1);
+--shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
+
+/*Borders*/
+--border-xs-white: .1rem solid var(--color-white);
+--border-xs: .1rem solid var(--color-light);
+--border-sm: .2rem solid var(--color-light);
+--border-lg: .4rem solid var(--color-white);
+
+--border-radius-sm: .25rem;
+--border-success: .2rem solid var(--border-color-sucess);
+--border-transparent: -1 solid var(--color-transparent);
 }
 
+/*Tar bort margin och padding på alla element RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
 
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+/*Sätt border-box och ändrar default fontsize*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-dark);
+    font-size: var(--display-sm);
+    min-height: 100vh;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h5, .h6, h1, h2, h3, h4, h5, h6 { 
+    font-family: "Dosis", "Open Sans", sans-serif; 
+    font-weight: 700;
+    letter-spacing: .05rem;
+}
+.h1, h1 {
+    font-size: var(--distance-13);
+}
 
 /*Background Colors*/
 .bg-primary, .btn-primary{ background-color: var(--color-primary); }
