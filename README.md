@@ -10,6 +10,7 @@ other stuff of intererst, please hit me up at **alex.tenghamn[a]gmail.com**.
 - [x] Set up GitHub
 - [ ] Create HTML
 - [ ] Create CSS 
-- [ ] Implemnet Bootstrap 
-- [ ] Implemnet flex 
+- [ ] Implement Bootstrap 
+- [ ] Implement flex
+- [ ] Make it responsive
 - [ ] Test
