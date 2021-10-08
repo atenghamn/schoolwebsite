@@ -1,1 +1,8 @@
 /*ALL THE FLEX GODNESS*/
+.d-flex {
+    display: flex;
+}
+/* Make it wider*/
+.flex-grow {
+    flex-grow: 1;
+}

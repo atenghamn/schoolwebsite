@@ -103,7 +103,7 @@ body {
 /*Background Colors*/
 .bg-primary, .btn-primary{ background-color: var(--color-primary); }
 .bg-secondary, .btn-secondary{ background-color: var(--color-primary);}
-.bg-success, .btn-success{ background-color: var(--color-sucess);}
+.bg-success, .btn-success{ background-color: var(--color-success);}
 .bg-info, .btn-info{ background-color: var(--color-info);}
 .bg-warning, .btn-warning{ background-color: var(--color-warning);}
 .bg-danger, .btn-danger{ background-color: var(--color-danger);}
