@@ -47,7 +47,8 @@
 --distance-12: 3rem;
 --distance-13: 3.25rem;
 --distance-14: 3.50rem;
---distance-15: 4rem;
+--distance-15: 3.75rem;
+--distance-16: 4rem;
 
 /*Shadows*/
 --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1);

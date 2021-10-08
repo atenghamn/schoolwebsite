@@ -2,9 +2,23 @@
 .d-flex {
     display: flex;
 }
+
+
+/************
+****FLEX*****
+************/
+
 /* Make it wider*/
 .flex-grow {
     flex-grow: 1;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
 }
 
 /*Aling & Justify*/
