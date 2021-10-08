@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.d-none {
+    display: none;
+}
+
 
 /************
 ****FLEX*****
@@ -19,6 +23,10 @@
 
 .flex-row {
     flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
 }
 
 /*Aling & Justify*/
