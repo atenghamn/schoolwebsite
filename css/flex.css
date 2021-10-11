@@ -29,6 +29,10 @@
     flex-direction: row-reverse;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 /*Aling & Justify*/
 .justify-content-between{
     justify-content: space-between;
