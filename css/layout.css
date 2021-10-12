@@ -51,7 +51,6 @@
 .mr-6, .mx-6{ margin-right: var(--distance-6);}
 .ml-6, .mx-6{ margin-left: var(--distance-6);}
 
-
 /*Position*/
 .position-relative {
     position: relative !important;
@@ -98,7 +97,7 @@
 
 /* Slideshow */
 .slider-width { width: 400%;} /*4 images X 100%*/
-/* .slider-animation {animation: 30s slider-keyframes infinite;} */
+.slider-animation {animation: 30s slider-keyframes infinite;}
 .slider-container { width: 25%;} /* Display first of 4 images (4images = 100%, 1 image = 25% */
 .slider-image { width: 100%; object-fit: cover;}
 

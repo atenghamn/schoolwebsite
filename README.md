@@ -8,8 +8,8 @@ other stuff of intererst, please hit me up at **alex.tenghamn[a]gmail.com**.
 ### TODO
 ---
 - [x] Set up GitHub
-- [ ] Create HTML
-- [ ] Create CSS 
+- [x] Create HTML
+- [x] Create CSS 
 - [x] Implement flex
-- [ ] Make it responsive
-- [ ] Test
+- [x] Make it responsive
+- [x] Test
