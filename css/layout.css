@@ -16,6 +16,8 @@
     max-width: 60rem;
 }
 
+.min-width-xxl { min-width: 100%;}
+
 /*Margin*/
 .mr-auto, .mx-auto {margin-right: auto;}
 .ml-auto, .mx-auto {margin-left: auto;}
@@ -191,6 +193,11 @@ nav div a:not(:first-child) {
     width: 6.2rem;
     height: 6.2rem;
     line-height: 6rem;
+}
+
+.icon-form-control{
+    right: 10px;
+    top: 10px;
 }
 
 /* Background Image */
