@@ -67,7 +67,7 @@
 .p-5{ padding: var(--distance-5); }
 .p-6{ padding: var(--distance-6); }
 .p-8{ padding: var(--distance-8); }
-.p-12{ padding: var(--distnace-12); }
+.p-12{ padding: var(--distance-12); }
 .p-15{ padding: var(--distance-15); }
 
 .pr-4, .px-4{padding-right: var(--distance-4) ;}
@@ -130,9 +130,15 @@
 
 .border-transparent { border: var(--border-transparent);}
 
-/*Creates an circle for the icons in the navbar*/
+/*Circles*/
 .circle {
     border-radius: 100%;
+}
+
+.circle-lg{ 
+    border-radius: 100%;
+    width: 15rem;
+    height: 15rem;;
 }
 
 
