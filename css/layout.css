@@ -8,6 +8,10 @@
     max-width: 192rem;
 }
 
+.max-width-50 {
+    max-width: 50%;
+}
+
 .card-width {
     max-width: 60rem;
 }
@@ -17,6 +21,7 @@
 .ml-auto, .mx-auto {margin-left: auto;}
 
 .m-6 {margin: var(--distance-6);}
+.m-15 {margin: var(--distance-15);}
 
 .mt-0, .my-0{ margin-top: var(--distance-0); } /* 0rem */
 .mb-0, .my-0{ margin-bottom: var(--distance-0); }
