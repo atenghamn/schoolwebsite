@@ -136,6 +136,9 @@
 
 .border-sm{ border: var(--border-sm); }
 
+.border-lg{ border: var(--border-lg); }
+
+
 .border-transparent { border: var(--border-transparent);}
 
 /*Circles*/
@@ -147,6 +150,12 @@
     border-radius: 100%;
     width: 15rem;
     height: 15rem;;
+}
+
+.circle-xl{ 
+    border-radius: 100%;
+    width: 25rem;
+    height: 25rem;;
 }
 
 
@@ -177,4 +186,13 @@ nav div a:not(:first-child) {
     width: 6.2rem;
     height: 6.2rem;
     line-height: 6rem;
+}
+
+/* Background Image */
+.statistics-image{
+    background-image: url("../images/fun-facts/fun-facts-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
